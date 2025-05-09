@@ -11,7 +11,7 @@ public class ComandoFine implements Comando{
 	}
 	
 	/**
-	 * Comando "Fine".
+	 * Comando "fine".
 	 */
 	@Override
 	public void esegui(Partita partita) {

@@ -109,9 +109,6 @@ class StanzaMagicaTest {
         assertEquals(this.spada, this.stanzaMagica.getAttrezzo("spada"));
     }
 	
-	
-	/* TEST DEI METODI get/setStanzaAdiacente() */
-	
     @Test
     void testGetStanzaAdiacenteDirezioneNonEsistente() {
         assertNull(this.stanzaMagica.getStanzaAdiacente("sud"));

@@ -58,7 +58,7 @@ public class Partita {
 	
 	/**
 	 * Restituisce il labirinto.
-	 * @return il il labirinto
+	 * @return il labirinto
 	 */
 	public Labirinto getLabirinto() {
 		return labirinto;
@@ -71,6 +71,11 @@ public class Partita {
 	public void setConsole(IO c) {
 		this.console = c;
 	}
+	
+	/**
+	 * Restituisce il labirinto.
+	 * @return la console
+	 */
 	public IO getConsole() {
 		return this.console;
 	}

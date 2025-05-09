@@ -16,9 +16,6 @@ class FabbricaDiComandiFisarmonicaTest {
 		this.fabbrica = new FabbricaDiComandiFisarmonica();
 	}
 
-	
-	/* TEST del metodo costruisciComando() */
-
 	@Test
 	void testCostruisciComandoNonValido() {
 		assertEquals("comando non valido", fabbrica.costruisciComando(null).getNome());

@@ -65,9 +65,6 @@ class StanzaMagicaProtectedTest {
         assertFalse(this.stanzaMagicaProtected.addAttrezzo(this.scudo));
     }
     
-    
-    /* TEST DEL METODO removeAttrezzo() */
-    
     @Test
 	void testRemoveAttrezzoNonPresente() {
 		assertFalse(this.stanzaMagicaProtected.removeAttrezzo(spada));
@@ -78,9 +75,6 @@ class StanzaMagicaProtectedTest {
     	this.stanzaMagicaProtected.addAttrezzo(this.spada);
 		assertTrue(this.stanzaMagicaProtected.removeAttrezzo(spada));	
     }
-    
-    
-    /* TEST DEL METODO hasAttrezzo()*/
 
 	@Test
 	void testHasAttrezzoStanzaVuota() {
@@ -108,9 +102,6 @@ class StanzaMagicaProtectedTest {
         this.stanzaMagicaProtected.addAttrezzo(this.spada);
         assertEquals(this.spada, this.stanzaMagicaProtected.getAttrezzo("spada"));
     }
-	
-	
-	/* TEST DEI METODI get/setStanzaAdiacente() */
 	
     @Test
     void testGetStanzaAdiacenteDirezioneNonEsistente() {

@@ -35,7 +35,7 @@ class IOSimulatorTest {
 		
 		this.giocaStampa();
 		
-		assertTrue(true);	// simulazione finita
+		assertTrue(true);	
 	}
 	
 	@Test
@@ -46,7 +46,7 @@ class IOSimulatorTest {
 		
 		this.giocaStampa();
 		
-		assertTrue(true);	// simulazione finita
+		assertTrue(true);	
 	}
 	
 	@Test
@@ -57,7 +57,7 @@ class IOSimulatorTest {
 		
 		this.giocaStampa();
 		
-		assertTrue(true);	// simulazione finita
+		assertTrue(true);	
 	}
 	
 	@Test
@@ -68,7 +68,7 @@ class IOSimulatorTest {
 		
 		this.giocaStampa();
 		
-		assertTrue(true);	// simulazione finita
+		assertTrue(true);	
 	}
 	
 	@Test
@@ -81,7 +81,7 @@ class IOSimulatorTest {
 			
 		this.giocaStampa();
 			
-		assertTrue(true);	// simulazione finita
+		assertTrue(true);	
 		
 	}
 	
@@ -93,6 +93,6 @@ class IOSimulatorTest {
 		
 		this.giocaStampa();
 		
-		assertTrue(true);	// simulazione finita
+		assertTrue(true);	
 	}
 }

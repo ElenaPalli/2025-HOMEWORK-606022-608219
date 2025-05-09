@@ -10,6 +10,9 @@ public class ComandoGuarda implements Comando{
 		this.nome = "guarda";
 	}
 	
+	/**
+	 * Comando "guarda".
+	 */
 	@Override
 	public void esegui(Partita partita) {
 		partita.getConsole().mostraMessaggio(partita.toString());
